@@ -39,3 +39,6 @@ UnicodeDecodeError: 'gbk' codec can't decode byte 0x8c in position 96: illegal m
 AttributeError: 'NoneType' object has no attribute 'replace'
 ```
 可以[参考](https://www.cnblogs.com/yusilu-2653144/p/16626661.html)
+
+项目效果
+![image](https://github.com/ljl20010215/qqmusic_crawler/assets/59340055/48370641-daf4-40b8-b66f-21246cfe7689)
