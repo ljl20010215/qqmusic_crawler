@@ -31,7 +31,7 @@ python qqmusic.py songName [index]
 ```
 可以获取前十首歌的信息,并通过index指定其中一首获得url和歌词。
 
-该项目是一个小demo，可以集成到任意需要的项目当中去。
+该项目是一个小demo，可以集成到任意需要qq音乐爬虫爬取音乐的项目当中去。
 
 若遇到报错
 ```
@@ -42,3 +42,5 @@ AttributeError: 'NoneType' object has no attribute 'replace'
 
 项目效果
 ![image](https://github.com/ljl20010215/qqmusic_crawler/assets/59340055/48370641-daf4-40b8-b66f-21246cfe7689)
+
+由于现在的网页版qq音乐都需要登入以为才能获取到歌曲，所以运行脚本需要提供有效的cookies。
