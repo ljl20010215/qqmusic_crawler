@@ -32,3 +32,10 @@ python qqmusic.py songName [index]
 可以获取前十首歌的信息,并通过index指定其中一首获得url和歌词。
 
 该项目是一个小demo，可以集成到任意需要的项目当中去。
+
+若遇到报错
+```
+UnicodeDecodeError: 'gbk' codec can't decode byte 0x8c in position 96: illegal multibyte sequence
+AttributeError: 'NoneType' object has no attribute 'replace'
+```
+可以[参考](https://www.cnblogs.com/yusilu-2653144/p/16626661.html)
